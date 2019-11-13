@@ -29,7 +29,7 @@ if '%errorlevel%' NEQ '0' (
 :gotAdmin
     pushd "%CD%"
     CD /D "%~dp0"
-:--------------------------------------    
+:--------------------------------------
 
 :: Source: https://stackoverflow.com/questions/4619088/windows-batch-file-file-download-from-a-url
 :: Downloading the latest platform tools from google
@@ -56,5 +56,7 @@ del /f adbinstallerpackage.zip
 
 :: Installation done
 cls
+echo Latest ADB and Fastboot Driver Installer tool
+echo By fawazahmed0 @ xda-developers
 echo Installation complete, press any key to exit
 pause > NUL
