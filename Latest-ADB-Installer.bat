@@ -28,7 +28,7 @@ echo Deleting the temporary files
 del /f adbinstallerpackage.zip
 
 :: Installation done
-cls
+echo ====================================================
 echo Latest ADB and Fastboot Driver Installer tool
 echo By fawazahmed0 @ xda-developers
 echo Installation complete, press any key to exit
