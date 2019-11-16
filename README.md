@@ -33,5 +33,6 @@ https://www.youtube.com/watch?v=IZc9_S6JQpE
 
 
 
-**Note:**<br />To update the adb,fastboot and usb drivers again, just rerun the tool.
-In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation. 
+**Note:**
+- To update the adb,fastboot and usb drivers again, just rerun the tool.
+- In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation. 
