@@ -14,7 +14,7 @@ Windows 7 and above
 1. Download Latest-ADB-Installer.bat and double click on it to run the installation process.
 
 ------------
-Screenshot:<br />
+**Screenshot:**<br />
 ![Tool Screenshot](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Tool%20Screenshot.jpg)
 
 ------------
