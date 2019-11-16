@@ -15,7 +15,7 @@ Windows 7 and above
 
 ------------
 Screenshot:
-![Tool Screenshot](Dragster.jpg)
+![Tool Screenshot](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Tool%20Screenshot.jpg)
 
 ------------
 
