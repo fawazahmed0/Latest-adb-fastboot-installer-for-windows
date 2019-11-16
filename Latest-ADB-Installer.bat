@@ -2,7 +2,7 @@
 
 :: Initial message
 echo ====================================================
-echo Latest ADB and Fastboot Driver Installer tool
+echo Latest ADB  Fastboot and USB Driver Installer tool
 echo By fawazahmed0 @ xda-developers
 echo ====================================================
 :: echo. is newline
