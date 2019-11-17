@@ -41,6 +41,8 @@ echo Downloading latest usb drivers
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://dl.google.com/android/repository/latest_usb_driver_windows.zip', 'google_usb_driver.zip')"
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/google64inf', 'google64inf')"
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/google86inf', 'google86inf')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/Stringsvals', 'Stringsvals')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/kmdf', 'kmdf')"
 
 
 :: Uninstalling/removing the platform tools older version, if they exists and  killing instances of adb if they are running
@@ -60,9 +62,13 @@ PowerShell -Command "& {$shell_app=new-object -com shell.application; $filename 
 :: Source: https://github.com/koush/UniversalAdbDriver
 :: Source: https://forum.xda-developers.com/google-nexus-5/development/adb-fb-apx-driver-universal-naked-t2513339
 :: Source: https://stackoverflow.com/questions/60034/how-can-you-find-and-replace-text-in-a-file-using-the-windows-command-line-envir
+:: Source: https://stackoverflow.com/questions/51060976/search-multiline-text-in-a-file-using-powershell
+:: Source: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-content?view=powershell-6
 :: Combining multiple inf Files to support all the devices
-powershell -Command "(gc usb_driver\android_winusb.inf) -replace '\[Google.NTamd64\]', (gc google64inf) | Out-File usb_driver\android_winusb.inf"
-powershell -Command "(gc usb_driver\android_winusb.inf) -replace '\[Google.NTx86\]', (gc google86inf) | Out-File usb_driver\android_winusb.inf"
+powershell -Command "gc Stringsvals | Add-Content usb_driver\android_winusb.inf"
+powershell -Command "(gc usb_driver\android_winusb.inf | Out-String) -replace '\[Google.NTamd64\]', (gc google64inf | Out-String) | Out-File usb_driver\android_winusb.inf"
+powershell -Command "(gc usb_driver\android_winusb.inf | Out-String) -replace '\[Google.NTx86\]', (gc google86inf | Out-String) | Out-File usb_driver\android_winusb.inf"
+powershell -Command "(gc usb_driver\android_winusb.inf | Out-String) -replace '\[Strings\]', (gc kmdf | Out-String) | Out-File usb_driver\android_winusb.inf"
 
 :: Fetching unsigned driver installer tool
 echo Downloading unsigned driver installer tool
