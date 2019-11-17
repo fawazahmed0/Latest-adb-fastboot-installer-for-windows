@@ -13,11 +13,13 @@ Windows 7 and above
 **Steps:**
 1. Download Latest-ADB-Installer.bat and double click on it to run the installation process.
 
-**Note:** In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation. 
+**Note:** In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation.
+![Win 10 Screenshot 1](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Windows%2010%20Screenshot1.png)
+![Win 10 Screenshot 2](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Windows%2010%20Screenshot2.png)
 
 ------------
 **Screenshot:**<br />
-![Tool Screenshot](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Tool%20Screenshot.jpg)
+![Tool Screenshot](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool%20Screenshot.jpg)
 
 ------------
 
