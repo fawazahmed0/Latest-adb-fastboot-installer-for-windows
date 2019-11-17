@@ -1,0 +1,31 @@
+; Kmdf 1.7 definitions
+[USB_Install_17]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[USB_Install_17.Services]
+Include     = winusb.inf
+AddService  = WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[USB_Install_17.Wdf]
+KmdfService = WINUSB, WinUSB_Install_17
+
+[WinUSB_Install_17]
+KmdfLibraryVersion  = 1.7
+
+[USB_Install_17.HW]
+AddReg  = Dev_AddReg
+
+[USB_Install_17.CoInstallers]
+AddReg    = CoInstallers_AddReg_17
+CopyFiles = CoInstallers_CopyFiles_17
+
+[CoInstallers_AddReg_17]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers_CopyFiles_17]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+
+[Strings]

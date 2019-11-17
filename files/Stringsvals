@@ -1,0 +1,88 @@
+
+APXBootLoaderInterface					= "APX Android Bootloader Interface"
+
+; Generic Samsung ADB Interface
+Samsung									= "Samsung Android Interface"
+
+; Google Nexus Generic
+GoogleNexusBootLoaderInterface				= "Google Nexus BootLoader Interface"
+GoogleNexusADBInterface					= "Google Nexus ADB Interface"
+
+; Google Nexus 7
+GoogleNexus7BootLoaderInterface				= "Google Nexus 7 BootLoader Interface"
+GoogleNexus7ADBInterface				= "Google Nexus 7 ADB Interface"
+
+; Google Galaxy Nexus
+SamsungGalaxyNexusBootLoaderInterface			= "Google Galaxy Nexus BootLoader Interface"
+SamsungGalaxyNexusADBInterface				= "Google Galaxy Nexus ADB Interface"
+
+; Google Nexus S
+GoogleNexusSADBInterface				= "Google Nexus S ADB Interface"
+GoogleNexusSBootLoaderInterface				= "Google Nexus S BootLoader Interface"
+; Google Nexus Q
+GoogleNexusQADBInterface				= "Google Nexus Q ADB Interface"
+
+; Google Nexus One
+GoogleNexusOneADBInterface				= "Google Nexus One ADB Interface"
+
+; Asus Transformer Prime TF201
+AsusTransformerPrimeADBInterface			= "Asus Transformer Prime ADB Interface"
+AsusFastbootInterface					= "Asus Fastboot Interface"
+
+; Asus Transformer TF101
+AsusTransformerADBInterface				= "Asus Transformer ADB Interface"
+
+; Asus Eee Pad Slider SL101
+AsusEeePadSliderADBInterface				= "Asus Eee Pad Slider ADB Interface"
+
+; Dell Cloud Connect
+DellCC = "Dell Cloud Connect"
+
+; Generic HTC Interface
+HTC        						= "HTC Android Interface"
+
+; Nook Interface
+Nook                  = "Nook Android Interface"
+
+; Motorola Interface
+MotSingleInterface		= "Mot Single ADB Interface"
+MotCompositeInterface	= "Mot Composite ADB Interface"
+
+; Huawei Interface
+Huawei                  = "Huawei Android Interface"
+
+; LG Interface
+LG                  = "LG Android Interface"
+
+; Spreadtrum Interface
+Spreadtrum              = "Spreadtrum Android Interface"
+
+; Xiaomi Interface
+Xiaomi              = "Xiaomi Android Interface"
+
+; Lenovo Interface
+Lenovo              = "Lenovo Android Interface"
+
+; View Sonic Interface
+ViewSonic = "View Sonic ADB Interface"
+
+; Google Glass Interface
+GoogleGlassBootLoaderInterface              = "Google Glass Bootloader Interface"
+GoogleGlassADBInterface              = "Google Glass ADB Interface"
+
+;ZTE
+ZTEValet = "ZTE Valet/Z665C ADB Interface"
+
+
+
+; Google Nexus 4
+GoogleNexus4BootLoaderInterface				= "Google Nexus 4 BootLoader Interface"
+GoogleNexus4ADBInterface				= "Google Nexus 4 ADB Interface"
+
+
+
+
+;Nvidia Shield
+NvidiaShieldADB						= "Nvidia Shield ADB"
+NvidiaShieldFastboot				= "Nvidia Shield Fastboot"
+NvidiaShield						= "Nvidia Shield"
