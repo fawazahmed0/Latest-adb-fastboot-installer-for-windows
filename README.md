@@ -39,3 +39,7 @@ https://www.youtube.com/watch?v=IZc9_S6JQpE
 
 **Note:**
 - To update the adb,fastboot and usb drivers again, just rerun the tool.
+
+------------
+
+TODO: Integrate travis CI, to test the code on all versions of Windows starting from win7 to latest version and then deploy it.
