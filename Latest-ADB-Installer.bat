@@ -21,7 +21,7 @@ echo for Complete USB drivers installation [Optional Step]
 
 :: Adding timout
 :: Source: https://www.howtogeek.com/196873/how-to-add-a-timeout-or-pause-in-a-batch-file/
-timeout /t 5 > nul 2>&1
+timeout /t 10 > nul 2>&1
 
 echo.
 echo Starting Installation
