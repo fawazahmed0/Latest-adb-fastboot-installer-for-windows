@@ -1,6 +1,6 @@
 # Using devcon to fetch unknown devices hwids to put in inf file
 # Source: https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon-examples#ddk_example_1_find_all_hardware_ids_tools
-$result = ./devcon.exe drivernodes @USB\VID* @USB\SAMSUNG* | select-string -pattern 'No driver' -Context 2,0 | findstr USB* | Out-String;
+$result = ./devcon.exe drivernodes @USB\VID* @USB\SAMSUNG* | select-string -pattern 'No driver nodes found for this device' -Context 2,0 | findstr USB* | Out-String;
 if($result.length -gt 0){
 $result = $result.Substring(0,$result.LastIndexOf('\')).trim();
 $result = "%CompositeAdbInterface%     = USB_Install, " + $result
