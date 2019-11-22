@@ -17,7 +17,8 @@ powershell start -verb runas '%0' am_admin & exit /b
 )
 
 echo Please connect your phone in USB Debugging Mode or Fastboot Mode
-echo for Complete USB drivers installation [Optional Step]
+echo for Complete USB drivers installation, you can do this now, while the
+echo the installation is running [Optional Step]
 echo.
 echo Starting Installation
 
