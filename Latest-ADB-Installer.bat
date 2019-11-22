@@ -83,6 +83,8 @@ PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.github
 :: https://stackoverflow.com/questions/3583565/how-to-skip-pause-in-batch-file
 :: Running unsigned_driver_installer tool
 pause
+pause
+pause
 pushd usb_driver
 echo | call unsigned_driver_installer.bat
 popd
