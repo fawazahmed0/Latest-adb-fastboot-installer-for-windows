@@ -16,6 +16,10 @@ if NOT %errorLevel% == 0 (
 powershell start -verb runas '%0' am_admin & exit /b
 )
 
+echo Please connect your phone in USB Debugging Mode or Fastboot Mode
+echo for complete USB drivers installation [Optional Step]
+echo.
+echo Starting Installation
 
 :: Source: https://stackoverflow.com/questions/672693/windows-batch-file-starting-directory-when-run-as-admin
 :: Going back to script directory
