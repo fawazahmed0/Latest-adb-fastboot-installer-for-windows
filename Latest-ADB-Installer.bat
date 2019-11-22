@@ -16,9 +16,9 @@ if NOT %errorLevel% == 0 (
 powershell start -verb runas '%0' am_admin & exit /b
 )
 
-echo Please connect your phone in USB Debugging Mode or Fastboot Mode
+echo Please connect your phone in USB Debugging Mode / Fastboot Mode
 echo for Proper USB drivers installation, you can do this now, while the
-echo the installation is running [Optional Step]
+echo the installation is running [Optional Step, Highly recommended]
 echo.
 echo Starting Installation
 
