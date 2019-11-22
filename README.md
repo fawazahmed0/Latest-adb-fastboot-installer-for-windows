@@ -11,7 +11,7 @@ Windows 7 and above
 
 
 **Steps:**
-1. Connect the phone in USB Debugging mode or Fastboot mode for Proper USB Drivers Installation [Optional Step]
+1. Connect the phone in USB Debugging mode / Fastboot mode for Proper USB Drivers Installation [Optional Step]
 1. Double click on Latest-ADB-Installer.bat to start the installation process.
 1. After the installation, Open Command Prompt( Go to Start Menu -> Type command Prompt -> Press Enter) and you can type adb and fastboot commands there.
 
