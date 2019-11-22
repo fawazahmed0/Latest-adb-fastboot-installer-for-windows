@@ -55,7 +55,7 @@ PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.github
 
 ::Fetching devcon.exe and powershell script
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/fetch_hwid.ps1', 'fetch_hwid.ps1')"
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/files/devcon.exe', 'devcon.exe')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/devcon.exe', 'devcon.exe')"
 
 :: Uninstalling/removing the platform tools older version, if they exists and  killing instances of adb if they are running
 echo Uninstalling older version
@@ -71,7 +71,8 @@ PowerShell -Command "& {$shell_app=new-object -com shell.application; $filename 
 
 :: Source: https://stackoverflow.com/questions/1804751/use-bat-to-start-powershell-script
 :: Calling powershell script to fetch the unknown usb driver hwids and inserting that in inf file
-powershell .\fetch_hwid.ps1
+:: Source: https://stackoverflow.com/questions/19335004/how-to-run-a-powershell-script-from-a-batch-file
+powershell -executionpolicy remotesigned .\fetch_hwid.ps1
 
 :: Source: https://github.com/koush/UniversalAdbDriver
 :: Source: https://forum.xda-developers.com/google-nexus-5/development/adb-fb-apx-driver-universal-naked-t2513339
