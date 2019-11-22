@@ -21,8 +21,9 @@ echo for Proper USB drivers installation, you can do this now, while
 echo the installation is running [Optional Step, Highly recommended]
 
 :: Adding timout
-:: Source: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/timeout_1
-timeout /t 5 /nobreak > nul 2>&1
+:: Source: http://blog.bitcollectors.com/adam/2015/06/waiting-in-a-batch-file/
+:: Source: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/start-sleep?view=powershell-6
+PowerShell -Command "Start-Sleep -s 5" > nul 2>&1
 
 echo.
 echo Starting Installation
