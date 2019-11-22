@@ -82,6 +82,7 @@ PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.github
 :: Source: https://stackoverflow.com/questions/1103994/how-to-run-multiple-bat-files-within-a-bat-file
 :: https://stackoverflow.com/questions/3583565/how-to-skip-pause-in-batch-file
 :: Running unsigned_driver_installer tool
+pause
 pushd usb_driver
 echo | call unsigned_driver_installer.bat
 popd
