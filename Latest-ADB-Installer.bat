@@ -17,8 +17,13 @@ powershell start -verb runas '%0' am_admin & exit /b
 )
 
 echo Please connect your phone in USB Debugging Mode / Fastboot Mode
-echo for Proper USB drivers installation, you can do this now, while the
+echo for Proper USB drivers installation, you can do this now, while
 echo the installation is running [Optional Step, Highly recommended]
+
+:: Adding timout
+:: Source: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/timeout_1
+timeout /t 5 /nobreak > nul 2>&1
+
 echo.
 echo Starting Installation
 
