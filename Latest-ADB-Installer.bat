@@ -141,7 +141,7 @@ if NOT "%rbtval%" == "0" set rbtval=%errorLevel%
 
 if "%rbtval%" == "0" (
 echo.
-echo Installing fastboot drivers, Now the device will boot to fastboot mode
+echo Installing fastboot drivers, Now the device will reboot to fastboot mode
 
 :: Adding timout , waiting for fastboot mode to boot
 :: Source: http://blog.bitcollectors.com/adam/2015/06/waiting-in-a-batch-file/
