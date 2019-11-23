@@ -2,11 +2,20 @@
 
 :: Initial message
 echo ====================================================
+echo All Praises be to God , who have Created All Things,
+echo While He Himself is Uncreated
+echo ====================================================
 echo Latest ADB Fastboot and USB Driver Installer tool
 echo By fawazahmed0 @ xda-developers
 echo ====================================================
 :: echo. is newline
 echo.
+
+:: Source: https://support.microsoft.com/en-us/help/110930/redirecting-error-messages-from-command-prompt-stderr-stdout
+:: Source: https://www.robvanderwoude.com/battech_debugging.php
+:: For debugging this script, comment out @echo off at top line
+:: Start cmd as admin, and run this script as nameofscript.bat > mylog.txt 2>myerror.txt
+
 
 :: Source: https://stackoverflow.com/questions/1894967/how-to-request-administrator-access-inside-a-batch-file
 :: Source: https://stackoverflow.com/questions/4051883/batch-script-how-to-check-for-admin-rights
@@ -16,14 +25,14 @@ if NOT %errorLevel% == 0 (
 powershell start -verb runas '%0' am_admin & exit /b
 )
 
-echo Please connect your phone in USB Debugging Mode / Fastboot Mode
-echo for Proper USB drivers installation, you can do this now, while
+echo Please connect your phone in USB Debugging Mode with MTP or File Transfer
+echo Option selected, for Proper USB drivers installation, you can do this now, while
 echo the installation is running [Optional Step, Highly recommended]
 
 :: Adding timout
 :: Source: http://blog.bitcollectors.com/adam/2015/06/waiting-in-a-batch-file/
 :: Source: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/start-sleep?view=powershell-6
-PowerShell -Command "Start-Sleep -s 5" > nul 2>&1
+PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
 
 echo.
 echo Starting Installation
@@ -102,6 +111,62 @@ echo.
 echo | call unsigned_driver_installer.bat
 popd
 
+:: Doing fastboot drivers installation
+:: Source: https://support.microsoft.com/en-us/help/110930/redirecting-error-messages-from-command-prompt-stderr-stdout
+:: Source: https://stackoverflow.com/questions/7005951/batch-file-find-if-substring-is-in-string-not-in-a-file
+:: Checking if usb debugging authorization is required
+"%PROGRAMFILES%\platform-tools\adb.exe" reboot bootloader > nul 2> temp.txt
+set rbtval=%errorLevel%
+:: Source: https://stackoverflow.com/questions/3068929/how-to-read-file-contents-into-a-variable-in-a-batch-file
+:: Source: http://batcheero.blogspot.com/2007/06/how-to-enabledelayedexpansion.html
+:: Source: https://stackoverflow.com/questions/4367930/errorlevel-inside-if
+:: Batch works different that any other programming language
+type temp.txt | findstr /i /C:"unauthorized" 1> NUL
+
+if %errorLevel% == 0 (
+echo.
+echo Beginning Fastboot drivers Installation
+echo.
+echo Please Press OK on confirmation dialog shown in your phone,
+echo to allow USB debugging authorization
+echo And then press Enter key to continue
+pause > NUL
+"%PROGRAMFILES%\platform-tools\adb.exe" reboot bootloader > nul 2>&1
+
+)
+:: Dont give space after %errorLevel%, value will be then assigned with space to rbtval
+if NOT "%rbtval%" == "0" set rbtval=%errorLevel%
+
+
+if "%rbtval%" == "0" (
+
+echo Installing fastboot drivers, Now the device will boot to fastboot mode
+
+:: Adding timout , waiting for fastboot mode to boot
+:: Source: http://blog.bitcollectors.com/adam/2015/06/waiting-in-a-batch-file/
+:: Source: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/start-sleep?view=powershell-6
+echo Waiting for fastboot mode to load
+PowerShell -Command "Start-Sleep -s 7" > nul 2>&1
+
+:: Executing ps1 to fetch the hwid of fastboot device
+powershell -executionpolicy remotesigned .\fetch_hwid.ps1
+
+:: Call driver installer
+pushd usb_driver
+echo.
+echo | call unsigned_driver_installer.bat
+popd
+
+:: Source: https://stackoverflow.com/questions/52060842/check-for-empty-string-in-batch-file
+:: Checking for fastboot device before doing a fastboot reboot
+"%PROGRAMFILES%\platform-tools\fastboot.exe" devices > temp.txt
+set /p fbdev=<temp.txt
+if defined fbdev ( "%PROGRAMFILES%\platform-tools\fastboot.exe" reboot > nul 2>&1  )
+)
+:: killing adb server
+"%PROGRAMFILES%\platform-tools\adb.exe" kill-server > nul 2>&1
+
+
 :: Source: https://stackoverflow.com/questions/51636175/using-batch-file-to-add-to-path-environment-variable-windows-10
 :: Source: https://stackoverflow.com/questions/141344/how-to-check-if-directory-exists-in-path/8046515
 :: Source: https://stackoverflow.com/questions/9546324/adding-directory-to-path-environment-variable-in-windows
@@ -118,10 +183,16 @@ SETX PATH "%PROGRAMFILES%\platform-tools;%CurrPath%" > nul 2>&1
 :: Deleting the temporary directory
 echo Deleting the temporary folder
 popd
-rmdir /Q /S temporarydir
+rmdir /Q /S temporarydir > nul 2>&1
 
+:: Source:https://stackoverflow.com/questions/7308586/using-batch-echo-with-special-characters
+:: Escape special chars in echo
 :: Installation done
 echo.
 echo.
-echo Installation complete, press any key to exit
+echo Installation complete, Now you can run ADB and Fastboot commands
+echo using Command Prompt, Click Start Menu, Type cmd and Press Enter
+echo to open Command Prompt and Enter ADB and fastboot commands there
+PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
+echo press any key to exit
 pause > NUL
