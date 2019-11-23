@@ -139,7 +139,7 @@ if NOT "%rbtval%" == "0" set rbtval=%errorLevel%
 
 
 if "%rbtval%" == "0" (
-
+echo.
 echo Installing fastboot drivers, Now the device will boot to fastboot mode
 
 :: Adding timout , waiting for fastboot mode to boot
@@ -190,9 +190,10 @@ rmdir /Q /S temporarydir > nul 2>&1
 :: Installation done
 echo.
 echo.
-echo Installation complete, Now you can run ADB and Fastboot commands
+echo Hurray Installation complete, Now you can run ADB and Fastboot commands
 echo using Command Prompt, Click Start Menu, Type cmd and Press Enter
 echo to open Command Prompt and Enter ADB and fastboot commands there
 PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
+echo.
 echo press any key to exit
 pause > NUL
