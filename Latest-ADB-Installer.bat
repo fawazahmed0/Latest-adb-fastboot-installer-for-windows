@@ -53,15 +53,18 @@ PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.github
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/fetch_hwid.ps1', 'fetch_hwid.ps1')"
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/devcon.exe', 'devcon.exe')"
 
+:: Source: https://pureinfotech.com/list-environment-variables-windows-10/
+:: Using Environment varaibles for programe files
 :: Uninstalling/removing the platform tools older version, if they exists and  killing instances of adb if they are running
 echo Uninstalling older version
 adb kill-server > nul 2>&1
-rmdir /Q /S "C:\Program Files\platform-tools" > nul 2>&1
+rmdir /Q /S "%PROGRAMFILES%\platform-tools" > nul 2>&1
 
 :: Source: https://stackoverflow.com/questions/37814037/how-to-unzip-a-zip-file-with-powershell-version-2-0
+:: Source: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-6
 :: Extracting the .zip file to installation location
 echo Installing the files
-PowerShell -Command "& {$shell_app=new-object -com shell.application; $filename = \"adbinstallerpackage.zip\"; $zip_file = $shell_app.namespace((Get-Location).Path + \"\$filename\"); $destination = $shell_app.namespace(\"C:\Program Files\"); $destination.Copyhere($zip_file.items());}"
+PowerShell -Command "& {$shell_app=new-object -com shell.application; $filename = \"adbinstallerpackage.zip\"; $zip_file = $shell_app.namespace((Get-Location).Path + \"\$filename\"); $destination = $shell_app.namespace($Env:ProgramFiles); $destination.Copyhere($zip_file.items());}"
 echo Installing USB drivers
 PowerShell -Command "& {$shell_app=new-object -com shell.application; $filename = \"google_usb_driver.zip\"; $zip_file = $shell_app.namespace((Get-Location).Path + \"\$filename\"); $destination = $shell_app.namespace((Get-Location).Path); $destination.Copyhere($zip_file.items());}"
 
@@ -100,10 +103,10 @@ popd
 echo Setting the Environment
 SET Key="HKCU\Environment"
 FOR /F "usebackq tokens=2*" %%A IN (`REG QUERY %Key% /v PATH`) DO Set CurrPath=%%B
-echo ;%CurrPath%; | find /C /I ";C:\Program Files\platform-tools;" > temp.txt
+echo ;%CurrPath%; | find /C /I ";%PROGRAMFILES%\platform-tools;" > temp.txt
 set /p VV=<temp.txt
 if "%VV%" EQU "0" (
-SETX PATH "C:\Program Files\platform-tools;%CurrPath%" > nul 2>&1
+SETX PATH "%PROGRAMFILES%\platform-tools;%CurrPath%" > nul 2>&1
 )
 
 :: Deleting the temporary directory
