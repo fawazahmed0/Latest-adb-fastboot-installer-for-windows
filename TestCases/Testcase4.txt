@@ -1,0 +1,1 @@
+adb authorized, device not found at fastboot
