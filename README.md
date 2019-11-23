@@ -11,7 +11,9 @@ Windows 7 and above
 
 
 **Steps:**
-1. Download Latest-ADB-Installer.bat and double click on it to run the installation process.
+1. Connect the phone in USB Debugging mode / Fastboot mode, for Proper USB Drivers Installation [Optional Step]
+1. Double click on Latest-ADB-Installer.bat to start the installation process.
+1. After the installation, Open Command Prompt( Go to Start Menu -> Type command Prompt -> Press Enter) and you can type adb and fastboot commands there.
 
 **Note:** In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation.<br />
 ![Win 10 Screenshot 1](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Windows%2010%20Screenshot1.png)
@@ -22,16 +24,12 @@ Windows 7 and above
 ![Tool Screenshot](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool%20Screenshot.jpg)
 
 ------------
+**Download Link:** [Click Here](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/releases/latest/download/Latest-ADB-Installer.bat "click here")
 
+**XDA Thread**: [Click Here](https://forum.xda-developers.com/android/general/tool-adb-fastboot-installer-tool-windows-t3999445 "Click Here")
 
+**Youtube Link:** [Click Here](https://www.youtube.com/watch?v=IZc9_S6JQpE "Click Here")
 
-**Link to XDA Thread**:<br />
-https://forum.xda-developers.com/android/general/tool-adb-fastboot-installer-tool-windows-t3999445
-
-
-
-**Youtube Link:**<br />
-https://www.youtube.com/watch?v=IZc9_S6JQpE
 
 ------------
 

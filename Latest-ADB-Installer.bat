@@ -16,9 +16,15 @@ if NOT %errorLevel% == 0 (
 powershell start -verb runas '%0' am_admin & exit /b
 )
 
-echo Please connect your phone in USB Debugging Mode or Fastboot Mode
-echo for Complete USB drivers installation, you can do this now, while the
-echo the installation is running [Optional Step]
+echo Please connect your phone in USB Debugging Mode / Fastboot Mode
+echo for Proper USB drivers installation, you can do this now, while
+echo the installation is running [Optional Step, Highly recommended]
+
+:: Adding timout
+:: Source: http://blog.bitcollectors.com/adam/2015/06/waiting-in-a-batch-file/
+:: Source: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/start-sleep?view=powershell-6
+PowerShell -Command "Start-Sleep -s 5" > nul 2>&1
+
 echo.
 echo Starting Installation
 
