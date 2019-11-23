@@ -130,6 +130,7 @@ echo.
 echo Please Press OK on confirmation dialog shown in your phone,
 echo to allow USB debugging authorization
 echo And then press Enter key to continue
+PowerShell -Command "Start-Sleep -s 3" > nul 2>&1
 pause > NUL
 "%PROGRAMFILES%\platform-tools\adb.exe" reboot bootloader > nul 2>&1
 
