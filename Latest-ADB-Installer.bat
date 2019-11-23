@@ -190,7 +190,7 @@ rmdir /Q /S temporarydir > nul 2>&1
 :: Installation done
 echo.
 echo.
-echo Hurray Installation complete, Now you can run ADB and Fastboot commands
+echo Hurray!! Installation Complete, Now you can run ADB and Fastboot commands
 echo using Command Prompt, Click Start Menu, Type cmd and Press Enter
 echo to open Command Prompt and Enter ADB and fastboot commands there
 PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
