@@ -26,8 +26,8 @@ powershell start -verb runas '%0' am_admin & exit /b
 )
 
 echo Please connect your phone in USB Debugging Mode with MTP or File Transfer
-echo Option selected, for Proper USB drivers installation, you can do this now, while
-echo the installation is running [Optional Step, Highly recommended]
+echo Option selected, for Proper USB drivers installation, you can do this now,
+echo while the installation is running [Optional Step, Highly recommended]
 
 :: Adding timout
 :: Source: http://blog.bitcollectors.com/adam/2015/06/waiting-in-a-batch-file/
