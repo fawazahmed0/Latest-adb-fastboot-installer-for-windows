@@ -12,8 +12,8 @@ Windows 7 and above
 
 **Steps:**
 1. Connect the phone in USB Debugging mode with MTP or File Transfer Option Selected, for Proper USB Drivers Installation [optional step, recommended]
-1. Press OK in confirmation dialog shown in phone during Installation.[only required, if step1 is done]
 1. Double click on Latest-ADB-Installer.bat to start the installation process.
+1. Press OK in confirmation dialog shown in phone during Installation.[only required, if step1 is done]
 1. After the installation is done, Open Command Prompt( Go to Start Menu -> Type command Prompt -> Press Enter) and you can type adb and fastboot commands there.
 
 **Note:** In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation.<br />
