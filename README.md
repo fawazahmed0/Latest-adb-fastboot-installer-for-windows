@@ -37,7 +37,7 @@ Windows 7 and above
 
 
 **Note:**
-- To update the adb,fastboot and usb drivers again, just rerun the tool.
+- To Update the ADB,Fastboot and USB drivers again, just rerun the Tool.
 
 ------------
 
