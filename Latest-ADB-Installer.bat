@@ -193,8 +193,13 @@ echo.
 echo.
 echo Hurray!! Installation Complete, Now you can run ADB and Fastboot commands
 echo using Command Prompt, Click Start Menu, Type cmd and Press Enter
-echo to open Command Prompt and Enter ADB and fastboot commands there
+echo to open Command Prompt and enter ADB and Fastboot commands there
 PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
+echo.
+echo Note for Beginners: Just Paste your files (twrp etc, if any) at Desktop,
+echo type 'cd desktop' (without quotes) in command prompt and press Enter
+echo and Now enter your ADB and Fastboot commands in there
+PowerShell -Command "Start-Sleep -s 8" > nul 2>&1
 echo.
 echo press any key to exit
 pause > NUL
