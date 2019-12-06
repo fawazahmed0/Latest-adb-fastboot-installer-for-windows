@@ -42,7 +42,7 @@ and Now enter your ADB and Fastboot commands in there
 - To Update the ADB,Fastboot and USB drivers again, just rerun the Tool.
 
 ------------
-**Request:** <br/> Please Consider sharing this with others, so that they can benefit from it
+**Request:** <br/> Please Consider sharing this with others, to save their time
 
 ------------
 
