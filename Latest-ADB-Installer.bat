@@ -201,5 +201,8 @@ echo type 'cd desktop' (without quotes) in command prompt and press Enter
 echo and Now enter your ADB and Fastboot commands in there
 PowerShell -Command "Start-Sleep -s 8" > nul 2>&1
 echo.
+echo Please Share this tool with others, to save their time
+PowerShell -Command "Start-Sleep -s 3" > nul 2>&1
+echo.
 echo press any key to exit
 pause > NUL
