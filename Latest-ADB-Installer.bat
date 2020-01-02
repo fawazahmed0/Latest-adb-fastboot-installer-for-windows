@@ -201,8 +201,8 @@ echo type 'cd desktop' (without quotes) in command prompt and press Enter
 echo and Now enter your ADB and Fastboot commands in there
 PowerShell -Command "Start-Sleep -s 8" > nul 2>&1
 echo.
-echo Note: If fastboot mode is not getting detected, just boot your phone
-echo to fastboot mode and run the installer tool again.
+echo Note: If fastboot mode is not getting detected, just connect your phone
+echo in fastboot mode and run the installer tool again.
 PowerShell -Command "Start-Sleep -s 6" > nul 2>&1
 echo.
 echo Please Share this tool with others, to save their time
