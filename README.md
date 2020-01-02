@@ -20,7 +20,9 @@ Windows 7 and above
 type 'cd desktop' (without quotes) in command prompt and press Enter
 and Now enter your ADB and Fastboot commands in there
 
-**Note:** In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation.<br />
+**Note:**
+1.  If fastboot mode is not getting detected after installation, just boot your phone to fastboot mode and then run the installer tool again.
+1. In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation.<br />
 ![Win 10 Screenshot 1](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Windows%2010%20Screenshot1.png)
 ![Win 10 Screenshot 2](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Windows%2010%20Screenshot2.png)
 
