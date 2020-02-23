@@ -48,4 +48,4 @@ and Now enter your ADB and Fastboot commands in there
 
 ------------
 
-TODO: Integrate travis CI, to test the code on all versions of Windows starting from win7 to latest version and then deploy it
+TODO: Integrate travis CI, to test the code on all versions of Windows starting from win7 to latest version and then deploy it.
