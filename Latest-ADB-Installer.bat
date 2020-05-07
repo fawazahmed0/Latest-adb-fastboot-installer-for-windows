@@ -86,6 +86,7 @@ PowerShell -Command "& {$shell_app=new-object -com shell.application; $filename 
 :: Source: https://stackoverflow.com/questions/1804751/use-bat-to-start-powershell-script
 :: Calling powershell script to fetch the unknown usb driver hwids and inserting that in inf file
 :: Source: https://stackoverflow.com/questions/19335004/how-to-run-a-powershell-script-from-a-batch-file
+:: Source: https://stackoverflow.com/questions/50370658/bypass-vs-unrestricted-execution-policies
 powershell -executionpolicy bypass .\fetch_hwid.ps1
 
 :: Source: https://github.com/koush/UniversalAdbDriver
@@ -149,6 +150,7 @@ echo Installing fastboot drivers, Now the device will reboot to fastboot mode
 echo Waiting for fastboot mode to load
 PowerShell -Command "Start-Sleep -s 7" > nul 2>&1
 
+:: Source: https://stackoverflow.com/questions/50370658/bypass-vs-unrestricted-execution-policies
 :: Executing ps1 to fetch the hwid of fastboot device
 powershell -executionpolicy bypass .\fetch_hwid.ps1
 
