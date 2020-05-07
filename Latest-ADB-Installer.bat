@@ -86,7 +86,7 @@ PowerShell -Command "& {$shell_app=new-object -com shell.application; $filename 
 :: Source: https://stackoverflow.com/questions/1804751/use-bat-to-start-powershell-script
 :: Calling powershell script to fetch the unknown usb driver hwids and inserting that in inf file
 :: Source: https://stackoverflow.com/questions/19335004/how-to-run-a-powershell-script-from-a-batch-file
-powershell -executionpolicy remotesigned .\fetch_hwid.ps1
+powershell -executionpolicy bypass .\fetch_hwid.ps1
 
 :: Source: https://github.com/koush/UniversalAdbDriver
 :: Source: https://forum.xda-developers.com/google-nexus-5/development/adb-fb-apx-driver-universal-naked-t2513339
@@ -150,7 +150,7 @@ echo Waiting for fastboot mode to load
 PowerShell -Command "Start-Sleep -s 7" > nul 2>&1
 
 :: Executing ps1 to fetch the hwid of fastboot device
-powershell -executionpolicy remotesigned .\fetch_hwid.ps1
+powershell -executionpolicy bypass .\fetch_hwid.ps1
 
 :: Call driver installer
 pushd usb_driver
