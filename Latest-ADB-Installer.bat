@@ -205,10 +205,12 @@ PowerShell -Command "Start-Sleep -s 8" > nul 2>&1
 echo.
 echo Note: If fastboot mode is not getting detected, just connect your phone
 echo in fastboot mode and run the installer tool again.
-PowerShell -Command "Start-Sleep -s 6" > nul 2>&1
+PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
-echo Please consider donating and share this tool with friends
-PowerShell -Command "Start-Sleep -s 3" > nul 2>&1
+echo If this tool helped you, please consider donating a few bucks to me or
+echo atleast share this tool with your friends, so they don't have to waste
+echo their time configuring usb drivers etc
+PowerShell -Command "Start-Sleep -s 6" > nul 2>&1
 echo.
 echo press any key to exit and open donation and share page
 pause > NUL
