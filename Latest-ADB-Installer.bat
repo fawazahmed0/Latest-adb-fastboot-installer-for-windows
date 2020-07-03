@@ -207,8 +207,9 @@ echo Note: If fastboot mode is not getting detected, just connect your phone
 echo in fastboot mode and run the installer tool again.
 PowerShell -Command "Start-Sleep -s 6" > nul 2>&1
 echo.
-echo Please Share this tool with others, to save their time
+echo Please consider donating and share this tool with friends
 PowerShell -Command "Start-Sleep -s 3" > nul 2>&1
 echo.
-echo press any key to exit
+echo press any key to exit and open donation and share page
 pause > NUL
+start https://bit.ly/2NPhQoT
