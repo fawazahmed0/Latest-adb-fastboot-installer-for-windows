@@ -210,7 +210,7 @@ echo.
 echo If this tool helped you, Please donate to me or at least share this
 echo tool with friends, so they don't have to waste time
 PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
-start https://bit.ly/2NPhQoT
+start https://bit.ly/2YU7XfP
 echo.
 echo press any key to exit
 pause > NUL
