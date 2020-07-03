@@ -1,5 +1,7 @@
 # Latest ADB Fastboot and USB driver installer tool
-ADB Fastboot and USB driver installer tool for windows (Always installs the latest version) 
+ADB Fastboot and USB driver installer tool for windows (Always installs the latest version)
+
+**Please Star this repo by clicking star symbol**
 
 ------------
 
@@ -44,8 +46,7 @@ and Now enter your ADB and Fastboot commands in there
 - To Update the ADB,Fastboot and USB drivers again, just rerun the Tool.
 
 ------------
-**Request:** <br/> Please Consider sharing this with others, to save their time
+**Donate:** <br/> If this tool helped you, Please donate to me or at least share this tool with friends, so they do not have to waste time. <br>
+[![Donate Link](https://cdn.jsdelivr.net/gh/fawazahmed0/fawazahmed0.github.io-file-hosting@master/images/donate.png)](https://bit.ly/2YU7XfP)
 
-------------
-
-TODO: Integrate travis CI, to test the code on all versions of Windows starting from win7 to latest version and then deploy it.
+[![Share Link](https://cdn.jsdelivr.net/gh/fawazahmed0/fawazahmed0.github.io-file-hosting@master/images/share.png)](https://bit.ly/2YU7XfP)
