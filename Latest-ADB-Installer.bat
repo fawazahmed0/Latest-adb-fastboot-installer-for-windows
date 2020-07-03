@@ -211,7 +211,7 @@ echo If this tool helped you, please consider donating a few bucks to me or
 echo atleast share this tool with your friends, so they don't have to waste
 echo their time configuring usb drivers etc
 PowerShell -Command "Start-Sleep -s 6" > nul 2>&1
-echo.
-echo press any key to exit and open donation and share page
-pause > NUL
 start https://bit.ly/2NPhQoT
+echo.
+echo press any key to exit
+pause > NUL
