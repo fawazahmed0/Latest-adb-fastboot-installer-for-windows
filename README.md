@@ -47,6 +47,4 @@ and Now enter your ADB and Fastboot commands in there
 
 ------------
 **Donate:** <br/> If this tool helped you, Please donate to me or at least share this tool with friends, so they do not have to waste time. <br>
-[![Donate Link](https://cdn.jsdelivr.net/gh/fawazahmed0/fawazahmed0.github.io-file-hosting@master/images/donate.png)](https://bit.ly/2YU7XfP)
-
-[![Share Link](https://cdn.jsdelivr.net/gh/fawazahmed0/fawazahmed0.github.io-file-hosting@master/images/share.png)](https://bit.ly/2YU7XfP)
+[Donate & Share Link](https://bit.ly/2YU7XfP "Donate & Share Link")
