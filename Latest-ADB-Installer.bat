@@ -63,7 +63,7 @@ PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.github
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/google86inf', 'google86inf')"
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/Stringsvals', 'Stringsvals')"
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/kmdf', 'kmdf')"
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/Latest ADB Fastboot Launcher.bat', 'Latest ADB Fastboot Launcher.bat')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/Latest ADB Launcher.bat', 'Latest ADB Launcher.bat')"
 
 ::Fetching devcon.exe and powershell script
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/fetch_hwid.ps1', 'fetch_hwid.ps1')"
@@ -188,10 +188,10 @@ SETX PATH "%PROGRAMFILES%\platform-tools;%CurrPath%" > nul 2>&1
 :: https://stackoverflow.com/a/32596713/2437224
 :: https://superuser.com/a/1278250/1200777
 :: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/copy
-:: Creating 'Latest ADB Fastboot Launcher' at Desktop
-echo Creating 'Latest ADB Fastboot Launcher' at Desktop
+:: Creating 'Latest ADB Launcher' at Desktop
+echo Creating 'Latest ADB Launcher' at Desktop
 For /F "delims=" %%G In ('PowerShell -Command "[environment]::GetFolderPath('Desktop')"') Do Set "DESKTOP=%%G"
-copy /y "Latest ADB Fastboot Launcher.bat" %DESKTOP% > nul 2>&1
+copy /y "Latest ADB Launcher.bat" %DESKTOP% > nul 2>&1
 
 :: Deleting the temporary directory
 echo Deleting the temporary folder
@@ -208,7 +208,7 @@ echo using Command Prompt, Click Start Menu, Type cmd and Press Enter
 echo to open Command Prompt and enter ADB and Fastboot commands there
 PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
 echo.
-echo Note for Beginners: Use 'Latest ADB Fastboot Launcher'
+echo Note for Beginners: Use 'Latest ADB Launcher'
 echo located at Desktop, to flash TWRP etc
 PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
 echo.

@@ -18,7 +18,7 @@ Windows 7 and above
 1. Press OK in confirmation dialog shown in phone during Installation.[only required, if step1 is done]
 1. After the installation is done, Open Command Prompt( Go to Start Menu -> Type command Prompt -> Press Enter) and you can type adb and fastboot commands there.
 
-**Note for Beginners:** Use 'Latest ADB Fastboot Launcher' placed at Desktop, to flash TWRP etc
+**Note for Beginners:** Use 'Latest ADB Launcher' placed at Desktop, to flash TWRP etc
 
 **Screenshot:**<br /><br />
 ![Tool Screenshot](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool%20Screenshot.jpg)
