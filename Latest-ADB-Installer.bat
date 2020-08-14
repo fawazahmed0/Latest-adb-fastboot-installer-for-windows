@@ -204,15 +204,11 @@ rmdir /Q /S temporarydir > nul 2>&1
 echo.
 echo.
 echo Hurray!! Installation Complete, Now you can run ADB and Fastboot commands
-echo using Command Prompt, Click Start Menu, Type cmd and Press Enter
-echo to open Command Prompt and enter ADB and Fastboot commands there
+echo using Command Prompt, beginner users can use 'Latest ADB Launcher' located
+echo at Desktop, to flash TWRP, GSI etc
 PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
 echo.
-echo Note for Beginners: Use 'Latest ADB Launcher'
-echo located at Desktop, to flash TWRP etc
-PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
-echo.
-echo Note: If fastboot mode is not getting detected, just connect your phone
+echo Note: In Case fastboot mode is not getting detected, just connect your phone
 echo in fastboot mode and run the installer tool again.
 PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
