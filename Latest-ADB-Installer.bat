@@ -63,6 +63,7 @@ PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.github
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/google86inf', 'google86inf')"
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/Stringsvals', 'Stringsvals')"
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/kmdf', 'kmdf')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/Latest ADB Fastboot Launcher.bat', 'Latest ADB Fastboot Launcher.bat')"
 
 ::Fetching devcon.exe and powershell script
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/fetch_hwid.ps1', 'fetch_hwid.ps1')"
@@ -183,6 +184,13 @@ if "%VV%" EQU "0" (
 SETX PATH "%PROGRAMFILES%\platform-tools;%CurrPath%" > nul 2>&1
 )
 
+:: https://stackoverflow.com/a/32596713/2437224
+:: https://superuser.com/a/1278250/1200777
+:: Creating 'Latest ADB Fastboot Launcher' at Desktop
+echo Creating 'Latest ADB Fastboot Launcher' at Desktop
+For /F "delims=" %%G In ('PowerShell -Command "[environment]::GetFolderPath('Desktop')"') Do Set "DESKTOP=%%G"
+copy "Latest ADB Fastboot Launcher.bat" %DESKTOP% > nul 2>&1
+
 :: Deleting the temporary directory
 echo Deleting the temporary folder
 popd
@@ -198,10 +206,9 @@ echo using Command Prompt, Click Start Menu, Type cmd and Press Enter
 echo to open Command Prompt and enter ADB and Fastboot commands there
 PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
 echo.
-echo Note for Beginners: Just Paste your files (twrp etc, if any) at Desktop,
-echo type 'cd desktop' (without quotes) in command prompt and press Enter
-echo and Now enter your ADB and Fastboot commands in there
-PowerShell -Command "Start-Sleep -s 8" > nul 2>&1
+echo Note for Beginners: Use 'Latest ADB Fastboot Launcher'
+echo Located at Desktop, to flash twrp etc
+PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
 echo Note: If fastboot mode is not getting detected, just connect your phone
 echo in fastboot mode and run the installer tool again.
