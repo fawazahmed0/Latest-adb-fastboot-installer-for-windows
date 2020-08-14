@@ -187,6 +187,7 @@ SETX PATH "%PROGRAMFILES%\platform-tools;%CurrPath%" > nul 2>&1
 
 :: https://stackoverflow.com/a/32596713/2437224
 :: https://superuser.com/a/1278250/1200777
+:: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/copy
 :: Creating 'Latest ADB Fastboot Launcher' at Desktop
 echo Creating 'Latest ADB Fastboot Launcher' at Desktop
 For /F "delims=" %%G In ('PowerShell -Command "[environment]::GetFolderPath('Desktop')"') Do Set "DESKTOP=%%G"
@@ -208,7 +209,7 @@ echo to open Command Prompt and enter ADB and Fastboot commands there
 PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
 echo.
 echo Note for Beginners: Use 'Latest ADB Fastboot Launcher'
-echo Located at Desktop, to flash twrp etc
+echo Located at Desktop, to flash TWRP etc
 PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
 echo Note: If fastboot mode is not getting detected, just connect your phone
