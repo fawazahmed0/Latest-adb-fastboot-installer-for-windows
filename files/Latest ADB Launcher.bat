@@ -8,7 +8,7 @@ echo Donate Link: fawazahmed0.github.io/donate.html
 PowerShell -Command "Start-Sleep -s 1" > nul 2>&1
 echo.
 
-echo Paste your files(twrp,etc) in Latest ADB Fastboot Tool Folder
+echo Paste your files(twrp, gsi, etc) in Latest ADB Fastboot Tool Folder
 echo and enter ADB and Fastboot commands in here
 PowerShell -Command "Start-Sleep -s 3" > nul 2>&1
 echo.
