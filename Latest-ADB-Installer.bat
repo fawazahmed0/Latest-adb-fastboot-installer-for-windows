@@ -175,7 +175,8 @@ if defined fbdev ( "%PROGRAMFILES%\platform-tools\fastboot.exe" reboot > nul 2>&
 :: Source: https://stackoverflow.com/questions/141344/how-to-check-if-directory-exists-in-path/8046515
 :: Source: https://stackoverflow.com/questions/9546324/adding-directory-to-path-environment-variable-in-windows
 :: Setting the path Environment Variable
-echo Setting the Environment
+echo.
+echo Setting the Environment Path
 SET Key="HKCU\Environment"
 FOR /F "usebackq tokens=2*" %%A IN (`REG QUERY %Key% /v PATH`) DO Set CurrPath=%%B
 echo ;%CurrPath%; | find /C /I ";%PROGRAMFILES%\platform-tools;" > temp.txt
@@ -189,7 +190,7 @@ SETX PATH "%PROGRAMFILES%\platform-tools;%CurrPath%" > nul 2>&1
 :: Creating 'Latest ADB Fastboot Launcher' at Desktop
 echo Creating 'Latest ADB Fastboot Launcher' at Desktop
 For /F "delims=" %%G In ('PowerShell -Command "[environment]::GetFolderPath('Desktop')"') Do Set "DESKTOP=%%G"
-copy "Latest ADB Fastboot Launcher.bat" %DESKTOP% > nul 2>&1
+copy /y "Latest ADB Fastboot Launcher.bat" %DESKTOP% > nul 2>&1
 
 :: Deleting the temporary directory
 echo Deleting the temporary folder
