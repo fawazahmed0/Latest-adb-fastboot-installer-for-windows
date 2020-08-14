@@ -209,7 +209,7 @@ echo to open Command Prompt and enter ADB and Fastboot commands there
 PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
 echo.
 echo Note for Beginners: Use 'Latest ADB Fastboot Launcher'
-echo placed at Desktop, to flash TWRP etc
+echo located at Desktop, to flash TWRP etc
 PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
 echo Note: If fastboot mode is not getting detected, just connect your phone
