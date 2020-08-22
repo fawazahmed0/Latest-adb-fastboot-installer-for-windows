@@ -16,7 +16,7 @@ Windows 7 and above
 1. Connect the phone in USB Debugging mode with MTP or File Transfer Option Selected, for Proper USB Drivers Installation [optional step, recommended]
 1. Double click on Latest-ADB-Installer.bat to start the installation process.
 1. Press OK in confirmation dialog shown in phone during Installation.[only required, if step1 is done]
-1. After the installation, You can run ADB and Fastboot commands using Command Prompt, beginner users can use 'Latest ADB Launcher' located at Desktop to flash TWRP, GSI etc
+1. After the installation, You can run ADB and Fastboot commands using Command Prompt, Beginners can use 'Latest ADB Launcher' located at Desktop to flash TWRP, GSI etc
 
 **Screenshot:**<br /><br />
 ![Tool Screenshot](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool%20Screenshot.jpg)
