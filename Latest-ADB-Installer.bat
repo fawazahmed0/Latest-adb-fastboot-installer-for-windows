@@ -204,7 +204,7 @@ rmdir /Q /S temporarydir > nul 2>&1
 echo.
 echo.
 echo Hurray!! Installation Complete, Now you can run ADB and Fastboot commands
-echo using Command Prompt, beginner users can use 'Latest ADB Launcher' located
+echo using Command Prompt, Beginners can use 'Latest ADB Launcher' located
 echo at Desktop, to flash TWRP, GSI etc
 PowerShell -Command "Start-Sleep -s 10" > nul 2>&1
 echo.
