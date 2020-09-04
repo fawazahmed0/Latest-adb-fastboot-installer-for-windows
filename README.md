@@ -19,7 +19,7 @@ Windows 7 and above
 1. After the installation, You can run ADB and Fastboot commands using Command Prompt, Beginners can use 'Latest ADB Launcher' located at Desktop to flash TWRP, GSI etc
 
 **Screenshot:**<br /><br />
-![Tool Animation](https://cdn.jsdelivr.net/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows@master/Screenshots/Tool-Animation.gif)
+![Tool Animation](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool-Animation.gif)
 
 ------------
 **Download Link:** [Click Here](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/releases/latest/download/Latest-ADB-Installer.bat "click here")
