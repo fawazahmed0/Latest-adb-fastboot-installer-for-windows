@@ -43,7 +43,7 @@ Windows 7 and above
 ![Chrome Warning 2](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Chrome%20warning%202.jpg)
 <br />
 
-1. In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation.
+3. In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation.
 <br />
 
 ![Win 10 Screenshot 1](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Windows%2010%20Screenshot1.png)
