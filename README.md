@@ -36,10 +36,16 @@ Windows 7 and above
 
 ### Special Notes:
 1. If fastboot mode is not getting detected after installation, just connect your phone in fastboot mode and then run the installer tool again.
-1. Google Chrome may give false warning while downloading the file, click on keep to download the file.<br />
+1. Google Chrome may give false warning while downloading the file, click on keep to download the file.
+<br />
+
 ![Chrome Warning 1](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Chrome%20warning%2001.jpg)
-![Chrome Warning 2](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Chrome%20warning%202.jpg)<br />
-1. In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation.<br />
+![Chrome Warning 2](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Chrome%20warning%202.jpg)
+<br />
+
+1. In Window 10, you will see Blue color box, during installation, click on More Info and click Run/Run anyway to start Installation.
+<br />
+
 ![Win 10 Screenshot 1](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Windows%2010%20Screenshot1.png)
 ![Win 10 Screenshot 2](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Windows%2010%20Screenshot2.png)
 
