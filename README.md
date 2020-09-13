@@ -43,10 +43,27 @@ Windows 7 and above
 
 ------------
 
-**Note:**
-- To Update the ADB,Fastboot and USB drivers again, just rerun the Tool.
+**Feedback:**
+> *OMG!! I was beginning to bang my head against the wall UNTIL I FOUND THIS TOOL!!  BUT this did everything man it works great .... i'll never have a problem in the future!!*      - [JDBarlow](https://forum.xda-developers.com/showpost.php?p=81454725&postcount=25)
+<br>
+
+> *Thank you, it made my day. The damn fastboot driver it's always a problem;
+even the drivers and .inf from Sony were useless. (Xperia XZ1 G8341).*      - [Azimutz](https://forum.xda-developers.com/showpost.php?p=82860249&postcount=111)
+<br>
+
+> *Thanx for your amazing tool ... your tool saved me a lot of time.*       - [mostafa asal](https://forum.xda-developers.com/showpost.php?p=80992775&postcount=10)
+<br>
+
+> *This is amazing. Win10 didn't want to eat Google's USB driver for fastboot for Google Glass EE2.
+This thing fixed the issue.*      - [escknx](https://forum.xda-developers.com/showpost.php?p=82120131&postcount=62)
+<br>
+
+> *I have a mediatek mt6771 device and it wasnt recognizing with the oem mtk drivers .. . . yet for some reason it was working fine after i installed your drivers ..*       - [aryanhington](https://forum.xda-developers.com/showpost.php?p=83384989&postcount=146)
+<br>
+
+> *Thx for your tool, it solved my problem.*       - [wadywadywady](https://forum.xda-developers.com/showpost.php?p=81565961&postcount=33)
 
 ------------
-**Donate:** <br/><br/> If this tool helped you, Please donate to me or at least share this tool with friends, so they do not have to waste time. <br>
+**Donate:** <br/><br/> If this tool helped you, Please consider donating to me or at least share this tool with friends, so they do not have to waste time. <br>
 
 [Donate & Share Link](https://bit.ly/2YU7XfP "Donate & Share Link")
