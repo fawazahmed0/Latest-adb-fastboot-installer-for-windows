@@ -73,6 +73,9 @@ even the drivers and .inf from Sony were useless. (Xperia XZ1 G8341).***      - 
 ------------
 ### Donate:
 If this tool helped you, Please consider donating to me or at least share this tool with friends, so they do not have to waste time.<br>
+
+[Donate & Share](https://bit.ly/2YU7XfP "Donate & Share")
+
 And also Star this repo by clicking on [:star: button](#) above [:arrow_upper_right:](#) <br>
 
-[Donate & Share Link](https://bit.ly/2YU7XfP "Donate & Share Link")
+
