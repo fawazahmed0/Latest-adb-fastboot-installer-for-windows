@@ -1,5 +1,7 @@
 # Latest ADB Fastboot and USB driver installer tool
-ADB Fastboot and USB driver installer tool for windows (Always installs the latest version)
+_ADB Fastboot and USB driver installer tool for windows (Always installs the latest version)_
+
+![Tool Animation](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool-Animation1.gif)
 
 ------------
 
@@ -15,9 +17,6 @@ Windows 7 and above
 1. Double click on Latest-ADB-Installer.bat to start the installation process.
 1. Press OK in confirmation dialog shown in phone during Installation.[only required, if step1 is done]
 1. After the installation, You can run ADB and Fastboot commands using Command Prompt, Beginners can use 'Latest ADB Launcher' located at Desktop to flash TWRP, GSI etc
-
-### Screenshot:
-![Tool Animation](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool-Animation1.gif)
 
 ------------
 ### Download Link:
