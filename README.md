@@ -81,6 +81,7 @@ I am mentioning a few of them here:
 - None
 - Edivaldo A Pereira
 - Wallace G. Sanders
+- Peter Bergonzi
 
 ------------
 ### Donate:
