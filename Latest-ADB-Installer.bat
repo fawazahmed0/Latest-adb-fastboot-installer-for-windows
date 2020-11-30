@@ -218,4 +218,4 @@ PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
 echo press any key to exit and open donation and share page
 pause > NUL
-start https://bit.ly/2YU7XfP
+start https://bit.ly/3qgmBtp
