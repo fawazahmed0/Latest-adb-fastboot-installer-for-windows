@@ -216,6 +216,7 @@ echo If this tool helped you, Please donate or at least share this tool
 echo with friends, so they don't have to waste time. Thanks in advance :-)
 PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
-echo press any key to exit and open donation and share page
+echo Do you have any question about life? Let's see can God answer it
+echo Press Enter to open Ask God page
 pause > NUL
-start https://bit.ly/3qgmBtp
+start https://fawazahmed0.github.io/askgod
