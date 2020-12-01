@@ -219,4 +219,5 @@ echo.
 echo Do you have any question about life? Let's see can God answer it
 echo Press Enter to open Ask God page
 pause > NUL
+start https://bit.ly/3qgmBtp
 start https://fawazahmed0.github.io/askgod
