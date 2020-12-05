@@ -83,6 +83,7 @@ I am mentioning a few of them here:
 - Edivaldo A Pereira
 - Wallace G. Sanders
 - Peter Bergonzi
+- Áron Somodi
 
 ------------
 ### Donate:
