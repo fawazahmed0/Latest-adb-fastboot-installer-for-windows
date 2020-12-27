@@ -219,4 +219,4 @@ echo.
 echo press any key to exit and open donation and share page
 pause > NUL
 start https://fawazahmed0.github.io/askgod
-start https://bit.ly/2LGw3q9
+start https://bit.ly/3nUMMED
