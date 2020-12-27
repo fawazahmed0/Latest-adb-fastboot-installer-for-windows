@@ -85,6 +85,7 @@ I would like to thank all the Supporters who have donated to this tool:<br>
 - Áron Somodi
 - Antonio Banders
 - vittorio noca
+- Manuel De Diego Prato
 
 ------------
 ### Donate:
