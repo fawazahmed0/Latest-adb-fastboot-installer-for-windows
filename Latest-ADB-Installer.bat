@@ -59,15 +59,15 @@ PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://dl.google.
 
 echo Downloading latest usb drivers
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://dl.google.com/android/repository/latest_usb_driver_windows.zip', 'google_usb_driver.zip')"
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/google64inf', 'google64inf')"
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/google86inf', 'google86inf')"
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/Stringsvals', 'Stringsvals')"
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/kmdf', 'kmdf')"
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/Latest ADB Launcher.bat', 'Latest ADB Launcher.bat')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.jsdelivr.net/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows@master/files/google64inf', 'google64inf')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.jsdelivr.net/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows@master/files/google86inf', 'google86inf')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.jsdelivr.net/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows@master/files/Stringsvals', 'Stringsvals')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.jsdelivr.net/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows@master/files/kmdf', 'kmdf')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.jsdelivr.net/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows@master/files/Latest ADB Launcherbat', 'Latest ADB Launcher.bat')"
 
 ::Fetching devcon.exe and powershell script
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/fetch_hwid.ps1', 'fetch_hwid.ps1')"
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/master/files/devcon.exe', 'devcon.exe')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.jsdelivr.net/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows@master/files/fetch_hwidps1', 'fetch_hwid.ps1')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.jsdelivr.net/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows@master/files/devconexe', 'devcon.exe')"
 
 :: Source: https://pureinfotech.com/list-environment-variables-windows-10/
 :: Using Environment varaibles for programe files
@@ -103,7 +103,7 @@ powershell -Command "(gc usb_driver\android_winusb.inf | Out-String) -replace '\
 
 :: Fetching unsigned driver installer tool
 echo Downloading unsigned driver installer tool
-PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/fawazahmed0/windows-unsigned-driver-installer/master/unsigned_driver_installer.bat', 'usb_driver\unsigned_driver_installer.bat')"
+PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.jsdelivr.net/gh/fawazahmed0/windows-unsigned-driver-installer@master/unsigned_driver_installerbat', 'usb_driver\unsigned_driver_installer.bat')"
 
 :: Source: https://stackoverflow.com/questions/1103994/how-to-run-multiple-bat-files-within-a-bat-file
 :: https://stackoverflow.com/questions/3583565/how-to-skip-pause-in-batch-file
