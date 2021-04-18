@@ -77,7 +77,7 @@ I would like to thank all the Supporters who have donated to this tool:<br>
 - Nuno Pinho
 - Robert Edwards
 - Antonio Gobbin
-- Hamza Elouacef
+- Hamza E.
 - None
 - Edivaldo A Pereira
 - Wallace G. Sanders
