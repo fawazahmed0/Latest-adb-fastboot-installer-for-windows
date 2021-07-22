@@ -3,8 +3,8 @@ mkdir "%HOMEPATH%\Latest ADB Fastboot Tool"  > nul 2>&1
 
 cd "%HOMEPATH%\Latest ADB Fastboot Tool"  > nul 2>&1
 echo.
-echo Please do consider to donate($3 or more) and share this tool
-echo Donate Link: fawazahmed0.github.io/donate
+echo You can help support this tool by as little as $3
+echo Support Link: fawazahmed0.github.io/donate
 PowerShell -Command "Start-Sleep -s 1" > nul 2>&1
 echo.
 
