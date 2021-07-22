@@ -72,7 +72,7 @@ even the drivers and .inf from Sony were useless. (Xperia XZ1 G8341).***      - 
 > *Thx for your tool, it solved my problem.*       - [wadywadywady](https://forum.xda-developers.com/showpost.php?p=81565961&postcount=33)
 
 ### Supporters 🎉:
-I would like to thank all the Supporters who have helped in maintenance of this tool:<br>
+I would like to thank all the Supporters who have helped in supporting this tool:<br>
 
 - Mickael Catherine
 - Christopher Vaughan
