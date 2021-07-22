@@ -4,7 +4,7 @@ _ADB Fastboot and USB driver installer tool for windows (Always installs the lat
 ![Tool Animation](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool-Animation1.gif)
 
 [![](https://data.jsdelivr.com/v1/package/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows/badge)](https://www.jsdelivr.com/package/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows)
-[![](https://img.shields.io/badge/Donate-Donate-orange)][donateurl]
+[![](https://img.shields.io/badge/Donate-Support-orange)][donateurl]
 ------------
 
 
