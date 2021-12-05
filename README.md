@@ -1,9 +1,20 @@
-# Latest ADB Fastboot and USB driver installer tool
-_ADB Fastboot and USB driver installer tool for windows (Always installs the latest version)_
+<h1 align="center">Latest ADB Fastboot and USB driver installer tool</h1>
 
-![Tool Animation](https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool-Animation1.gif)
+<p align="center"> <i>ADB Fastboot and USB driver installer tool for windows (Always installs the latest version)</i></p>
+
+<p align="center">
+  <img src="https://github.com/fawazahmed0/Latest-adb-fastboot-installer-for-windows/raw/master/Screenshots/Tool-Animation1.gif">
+</p>
 
 [![](https://data.jsdelivr.com/v1/package/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows/badge)](https://www.jsdelivr.com/package/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows)
+
+------------
+ 
+ <div style="display:flex;">
+    <div><h4 align="center"><a href="https://sendletters.pp.ua"><img src="https://github.com/fawazahmed0/tiger/raw/master/envelope.svg" width="250" alt="SendLetters Brand Image"></a><br>This Tool is Sponsored by SendLetters, the Easiest way to Send Letters & Documents <a href="https://sendletters.pp.ua">Physically Anywhere in the World</a>.</h4></div>
+</div>
+
+
 ------------
 
 
@@ -100,11 +111,6 @@ I would like to thank all the Supporters who have helped in supporting this tool
 - Fernando Toribio
 
 ------------
-### Support:
-You can help support this tool by as little as $3, because this tool needs regular maintenance to support all the different Android devices.
 
-[Support Link][donateurl]
+Please Star this repo by clicking on [:star: button](#) above [:arrow_upper_right:](#) <br>
 
-And also Star this repo by clicking on [:star: button](#) above [:arrow_upper_right:](#) <br>
-
-[donateurl]: https://bit.ly/3l5SvbK "Support & Share"
