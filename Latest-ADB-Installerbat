@@ -212,12 +212,10 @@ echo Note: In Case fastboot mode is not getting detected, just connect your phon
 echo in fastboot mode and run the installer tool again.
 PowerShell -executionpolicy bypass -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
-echo You can help support this tool by as little as $3
-echo Because this tool needs regular maintenance to support all the different android devices
-echo Thank you for considering to support this tool :-)
+echo This tool is Sponsored by SendLetters, the Easiest way to Send Letters
+echo and Documents Physically Anywhere in the World
 PowerShell -executionpolicy bypass -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
-echo press any key to exit and open support and share page
+echo press any key to exit and open sponsor page
 pause > NUL
 start https://sendletters.pp.ua
-start https://bit.ly/3l5SvbK
