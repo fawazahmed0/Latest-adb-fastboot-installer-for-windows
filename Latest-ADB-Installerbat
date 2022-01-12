@@ -216,6 +216,5 @@ echo This tool is Sponsored by SendLetters, the Easiest way to Send Letters
 echo and Documents Physically Anywhere in the World
 PowerShell -executionpolicy bypass -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
-echo press any key to exit and open sponsor page
+echo press any key to exit
 pause > NUL
-start https://sendletters.pp.ua
