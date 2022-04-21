@@ -3,9 +3,8 @@ mkdir "%HOMEPATH%\Latest ADB Fastboot Tool"  > nul 2>&1
 
 cd "%HOMEPATH%\Latest ADB Fastboot Tool"  > nul 2>&1
 echo.
-echo This tool is Sponsored by SendLetters, the Easiest way to Send Letters
-echo and Documents Physically Anywhere in the World
-echo Link: sendletters.pp.ua
+echo You can help support this tool by as little as $3
+echo Support Link: fawazahmed0.github.io/donate
 PowerShell -Command "Start-Sleep -s 1" > nul 2>&1
 echo.
 
