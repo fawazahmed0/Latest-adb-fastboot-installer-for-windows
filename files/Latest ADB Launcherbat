@@ -3,9 +3,10 @@ mkdir "%HOMEPATH%\Latest ADB Fastboot Tool"  > nul 2>&1
 
 cd "%HOMEPATH%\Latest ADB Fastboot Tool"  > nul 2>&1
 echo.
-echo You can help support this tool by as little as $3
-echo Support Link: fawazahmed0.github.io/donate
-PowerShell -Command "Start-Sleep -s 1" > nul 2>&1
+echo Sponsored by SendLetter.org, Snail Mail your Forms, Documents,
+echo Letters, Physically Anywhere in the World, starting at $1
+echo Link: sendletter.org
+PowerShell -Command "Start-Sleep -s 3" > nul 2>&1
 echo.
 
 echo Paste your files(twrp, gsi etc) in Latest ADB Fastboot Tool Folder
