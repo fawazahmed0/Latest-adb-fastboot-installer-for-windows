@@ -35,6 +35,10 @@ Visit [SendLetter.org](https://sendletter.org/?r=adbr) to Send Now! And Save you
 
 ------------
 
+You can help support the open source work by donating at [here](https://github.com/sponsors/fawazahmed0)
+
+------------
+
 ### OS Requirements:
 Windows 7 and above
 
@@ -109,6 +113,10 @@ I would like to thank all the Supporters who have donated:<br>
 - Mickael Catherine
 - [Old Donors](DONOR.md)
 
+
+### Donate ❤️: 
+- [Custom Page](https://tinyurl.com/2p88xnyd)
+- [Github Sponsors](https://github.com/sponsors/fawazahmed0)
 
 ------------
 
