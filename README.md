@@ -99,7 +99,7 @@ even the drivers and .inf from Sony were useless. (Xperia XZ1 G8341).***      - 
 > *Thx for your tool, it solved my problem.*       - [wadywadywady](https://forum.xda-developers.com/showpost.php?p=81565961&postcount=33)
 
 ### Supporters 🎉:
-I would like to thank all the Supporters who have helped in supporting this tool:<br>
+I would like to thank all the Supporters who have donated:<br>
 
 - Christopher Caldwell
 - Roy Rubin
@@ -107,25 +107,8 @@ I would like to thank all the Supporters who have helped in supporting this tool
 - Alexey Makarov
 - Romy Adiputra
 - Mickael Catherine
-- Christopher Vaughan
-- Nuno Pinho
-- Robert Edwards
-- Antonio Gobbin
-- Hamza E.
-- None
-- Edivaldo A Pereira
-- Wallace G. Sanders
-- Peter Bergonzi
-- Áron Somodi
-- Antonio Banders
-- vittorio noca
-- Manuel De Diego Prato
-- Justin Kennedy
-- Bo Pedersen
-- Denis Petrushkin
-- Justine Kira
-- Lury Williams
-- Fernando Toribio
+- [Old Donors](DONOR.md)
+
 
 ------------
 
