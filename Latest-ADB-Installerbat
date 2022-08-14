@@ -220,4 +220,3 @@ echo.
 echo press any key to exit and open sponsor and donate page
 pause > NUL
 start https://sendletter.org/?r=adb
-start https://tinyurl.com/2p88xnyd
