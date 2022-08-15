@@ -3,10 +3,9 @@ mkdir "%HOMEPATH%\Latest ADB Fastboot Tool"  > nul 2>&1
 
 cd "%HOMEPATH%\Latest ADB Fastboot Tool"  > nul 2>&1
 echo.
-echo Sponsored by SendLetter.org, Snail Mail your Forms, Documents,
-echo Letters, Physically Anywhere in the World, starting at $1
-echo Link: sendletter.org
-PowerShell -Command "Start-Sleep -s 3" > nul 2>&1
+echo If you would like to scrape data from web, automate a task, build out a website
+echo or consult on something, then please write mail to pingdb@datascraping.pp.ua
+PowerShell -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
 
 echo Paste your files(twrp, gsi etc) in Latest ADB Fastboot Tool Folder
