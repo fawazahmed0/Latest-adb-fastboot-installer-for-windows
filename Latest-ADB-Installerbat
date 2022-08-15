@@ -217,6 +217,6 @@ echo Letters, Posters, Physically Anywhere in the World.
 echo Have Documents, Printed, Folded and Mailed by them, starting at $1 
 PowerShell -executionpolicy bypass -Command "Start-Sleep -s 8" > nul 2>&1
 echo.
-echo press any key to exit and open sponsor and donate page
+echo press any key to exit and open sponsor page
 pause > NUL
 start https://sendletter.org/?r=adb
