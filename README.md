@@ -10,9 +10,9 @@
 
 ------------
 
-<strong> If you would like to scrape data from web, automate a task, build out a website or consult on something
+**Note:** If you would like to scrape data from web, automate a task, build out a website or consult on something
 
-Then please write mail to pingdb@datascraping.pp.ua </strong>
+Then please write mail to pingdb@datascraping.pp.ua
 
 ------------
 
