@@ -212,10 +212,6 @@ echo Note: In Case fastboot mode is not getting detected, just connect your phon
 echo in fastboot mode and run the installer tool again.
 PowerShell -executionpolicy bypass -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
-echo If you would like to scrape data from web, automate a task, build out a website
-echo or consult on something, then please write mail to pingdb@datascraping.pp.ua
-PowerShell -executionpolicy bypass -Command "Start-Sleep -s 5" > nul 2>&1
-echo.
 echo Sponsored by SendLetter.org, Snail Mail Yours Forms, Documents,
 echo Letters, Posters, Physically Anywhere in the World.
 echo Have Documents, Printed, Folded and Mailed by them, starting at $1 
