@@ -10,35 +10,6 @@
 
 ------------
 
-<div style="display: flex">
-  <div>
-    <div align="center">
-      <a href="https://sendletter.org/?r=adbr"
-        ><img
-          src="https://sendletter.org/original-icon.svg"
-          width="150"
-          alt="SendLetter Brand Image" /></a
-      >
-    </div>
-    <strong>
-              This work is Sponsored by SendLetter, the Cheapest way to Send Letters, Documents <a href="https://sendletter.org/?r=adbr">physically anywhere in the world</a> with the click of a button.
-Upload your PDF & we will print the pages in high quality and send it to the destination address.
-
-Our prices are cheapest in the world, starting at $1, you cannot get prices lower than this from anywhere else.
-
-You can use our service to send Forms, Documents, Invoices, Statements, Letters, Invitations, Posters, Flyers, Handwritten letters to your friends, Thank You letters to customers and for many more things.
-
-Visit [SendLetter.org](https://sendletter.org/?r=adbr) to Send Now! And Save your Time and Money.
-    </strong>
-  </div>
-</div>
-
-------------
-
-You can help support the open source work by donating at [here](https://github.com/sponsors/fawazahmed0)
-
-------------
-
 ### OS Requirements:
 Windows 7 and above
 
@@ -101,22 +72,6 @@ even the drivers and .inf from Sony were useless. (Xperia XZ1 G8341).***      - 
 <br>
 
 > *Thx for your tool, it solved my problem.*       - [wadywadywady](https://forum.xda-developers.com/showpost.php?p=81565961&postcount=33)
-
-### Supporters 🎉:
-I would like to thank all the Supporters who have donated:<br>
-
-- Christopher Caldwell
-- Roy Rubin
-- Holger Banzhaf
-- Alexey Makarov
-- Romy Adiputra
-- Mickael Catherine
-- [Old Donors](DONOR.md)
-
-
-### Donate ❤️: 
-- [Custom Page](https://tinyurl.com/2p88xnyd)
-- [Github Sponsors](https://github.com/sponsors/fawazahmed0)
 
 ------------
 
