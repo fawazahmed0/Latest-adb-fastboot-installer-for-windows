@@ -70,11 +70,14 @@ PowerShell -executionpolicy bypass -Command "(New-Object Net.WebClient).Download
 PowerShell -executionpolicy bypass -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.jsdelivr.net/gh/fawazahmed0/Latest-adb-fastboot-installer-for-windows@master/files/devconexe', 'devcon.exe')"
 
 :: Source: https://pureinfotech.com/list-environment-variables-windows-10/
-:: Using Environment varaibles for programe files
+:: Using Environment variables for program files
 :: Uninstalling/removing the platform tools older version, if they exists and  killing instances of adb if they are running
-echo Uninstalling older version
+echo "Begin uninstalling old version"
+echo "  Shutting down old server if running"
 adb kill-server > nul 2>&1
+echo "  Removing old platform-tools folder from Program Files"
 rmdir /Q /S "%PROGRAMFILES%\platform-tools" > nul 2>&1
+echo "Old version uninstalled"
 
 :: Source: https://stackoverflow.com/questions/37814037/how-to-unzip-a-zip-file-with-powershell-version-2-0
 :: Source: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-6
@@ -143,7 +146,7 @@ if NOT "%rbtval%" == "0" set rbtval=%errorLevel%
 
 if "%rbtval%" == "0" (
 echo.
-echo Installing fastboot drivers, Now the device will reboot to fastboot mode
+echo Installing fastboot drivers. Now the device will reboot to fastboot mode
 
 :: Adding timout , waiting for fastboot mode to boot
 :: Source: http://blog.bitcollectors.com/adam/2015/06/waiting-in-a-batch-file/
@@ -203,6 +206,7 @@ rmdir /Q /S temporarydir > nul 2>&1
 :: Installation done
 echo.
 echo.
+
 echo Hurray!! Installation Complete, Now you can run ADB and Fastboot commands
 echo using Command Prompt, Beginners can use 'Latest ADB Launcher' located
 echo at Desktop, to flash TWRP, GSI etc
@@ -210,6 +214,15 @@ PowerShell -executionpolicy bypass -Command "Start-Sleep -s 10" > nul 2>&1
 echo.
 echo Note: In Case fastboot mode is not getting detected, just connect your phone
 echo in fastboot mode and run the installer tool again.
+
+echo "Installation Version details:"
+echo.
+adb --version
+echo. 
+fastboot --version
+echo.
+echo "If you would like to verify that this is the latest version, you can check https://developer.android.com/tools/releases/platform-tools"
+
 PowerShell -executionpolicy bypass -Command "Start-Sleep -s 4" > nul 2>&1
 echo.
 echo press any key to exit
